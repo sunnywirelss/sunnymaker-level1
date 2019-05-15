@@ -1,0 +1,118 @@
+<!-- 
+type="company" 
+block="block/robocat.js" 
+generator="generator/robocat.js"  
+lib="robocat" 
+media="media/robocat" 
+language="language/robocat"
+-->
+<script type="text/javascript" src="../../blocks/company/robocat.js"></script>
+<script type="text/javascript" src="../../generators/arduino/company/robocat.js"></script>
+<category id="catRobocat" name="Robocat" colour="20">
+	  <block type="rb_digitalread">
+		<value name="PIN">
+			<shadow type="pins_digital"></shadow>
+		</value>
+	  </block>
+
+		<block type="rb_analogread">
+		<value name="PIN">
+          <shadow type="pins_analog"></shadow>
+        </value>
+	  </block>
+
+
+		<block type="RB_DIGITIALOUTPUT">
+		<value name="PIN">
+			<shadow type="pins_digital"></shadow>
+		</value>
+	  </block>
+	  <block type="RB_PWMOUTPUT">
+		<value name="PIN">
+			<shadow type="pins_pwm"></shadow>
+		</value>
+		<value name="NUM">
+			<shadow type="math_number">0</shadow>
+		</value>
+	  </block>
+	  <category id="catRobocatmotors" name="MOTORs" colour="20">
+	  	  <block type="rb_romeo_motor" colour="0">
+		<value name="speed">
+          <shadow type="math_number">
+            <field name="NUM">100</field>
+          </shadow>
+        </value>
+	  </block>
+	  <block type="rb_romeo_motor_stop"colour="0"></block>
+	  </category>
+
+	  <category id="catRobocatleds" name="LEDs_matrix" colour="58">
+
+		<block type="LEDs_init" name="LED点阵初始化">
+			<value name="PIN1">
+				<shadow type="pins_digital">
+					<field name="PIN">9</field>
+				</shadow>
+			</value>
+			<value name="PIN2">
+				<shadow type="pins_digital">
+					<field name="PIN">10</field>
+				</shadow>
+			</value>
+			<value name="PIN3">
+				<shadow type="pins_digital">
+					<field name="PIN">11</field>
+				</shadow>
+			</value>
+			<value name="NUM">
+				<shadow type="math_number">
+					<field name="NUM">1</field>
+				</shadow>
+			</value>
+			<value name="Intensity">
+				<shadow type="math_number">
+					<field name="NUM">200</field>
+				</shadow>
+			</value>
+		</block>
+		
+		
+		<block type="LEDs_putString" name="LEDs滚动字符串">
+			<value name="String">
+				<shadow type="text">
+					<field name="TEXT">Robocat</field>
+				</shadow>
+			</value>
+			<value name="Speed">
+				<shadow type="math_number">
+					<field name="NUM">250</field>
+				</shadow>
+			</value>
+		</block>
+
+		<block type="LEDs_DisplayChar" name="显示图案">
+			<value name="Chars">
+				<block type="LedArray"></block>
+			</value>
+		</block>
+
+		<block type="LEDs_img" name="预设图案">
+		</block>
+
+</category>
+	  <category id="catRobocatSmartshield" name="Smart_shield" colour="20">
+	  	  <block type="rb_romeo_motor" colour="0">
+		<value name="speed">
+          <shadow type="math_number">
+            <field name="NUM">100</field>
+          </shadow>
+        </value>
+	  </block>
+	  <block type="rb_romeo_motor_stop"colour="0"></block>
+	  </category>
+	  <category id="catRobocatToolbox" name="toolbox" colour="210">
+			<block type="RB_S4A" name="S4A firmware"colour="0">
+			</block>
+	  <block type="RB_IIC_Scan"colour="0"></block>
+	  </category>
+</category>

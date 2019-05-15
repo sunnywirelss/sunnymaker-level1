@@ -1,0 +1,52 @@
+[
+  {
+    "Sourcefile": "",
+    "Include": "",
+    "Includepath": "C:\\Users\\lenovo\\Desktop\\产品手册-阳光小创客\\sunnyduino\\Mixly0.998_WIN(7.9)\\arduino-1.8.5\\hardware\\arduino\\avr\\cores\\arduino"
+  },
+  {
+    "Sourcefile": "",
+    "Include": "",
+    "Includepath": "C:\\Users\\lenovo\\Desktop\\产品手册-阳光小创客\\sunnyduino\\Mixly0.998_WIN(7.9)\\arduino-1.8.5\\hardware\\arduino\\avr\\variants\\mega"
+  },
+  {
+    "Sourcefile": "C:\\Users\\lenovo\\Desktop\\产品手册-阳光小创客\\sunnyduino\\Mixly0.998_WIN(7.9)\\mixlyBuild\\sketch\\testArduino.ino.cpp",
+    "Include": "Wire.h",
+    "Includepath": "C:\\Users\\lenovo\\Desktop\\产品手册-阳光小创客\\sunnyduino\\Mixly0.998_WIN(7.9)\\arduino-1.8.5\\hardware\\arduino\\avr\\libraries\\Wire\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\lenovo\\Desktop\\产品手册-阳光小创客\\sunnyduino\\Mixly0.998_WIN(7.9)\\mixlyBuild\\sketch\\testArduino.ino.cpp",
+    "Include": "LiquidCrystal_I2C.h",
+    "Includepath": "C:\\Users\\lenovo\\Desktop\\产品手册-阳光小创客\\sunnyduino\\Mixly0.998_WIN(7.9)\\arduino-1.8.5\\libraries\\LiquidCrystal_I2C"
+  },
+  {
+    "Sourcefile": "C:\\Users\\lenovo\\Desktop\\产品手册-阳光小创客\\sunnyduino\\Mixly0.998_WIN(7.9)\\mixlyBuild\\sketch\\testArduino.ino.cpp",
+    "Include": "RTC.h",
+    "Includepath": "C:\\Users\\lenovo\\Desktop\\产品手册-阳光小创客\\sunnyduino\\Mixly0.998_WIN(7.9)\\arduino-1.8.5\\libraries\\RTC"
+  },
+  {
+    "Sourcefile": "C:\\Users\\lenovo\\Desktop\\产品手册-阳光小创客\\sunnyduino\\Mixly0.998_WIN(7.9)\\mixlyBuild\\sketch\\testArduino.ino.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\lenovo\\Desktop\\产品手册-阳光小创客\\sunnyduino\\Mixly0.998_WIN(7.9)\\arduino-1.8.5\\hardware\\arduino\\avr\\libraries\\Wire\\src\\Wire.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\lenovo\\Desktop\\产品手册-阳光小创客\\sunnyduino\\Mixly0.998_WIN(7.9)\\arduino-1.8.5\\hardware\\arduino\\avr\\libraries\\Wire\\src\\utility\\twi.c",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\lenovo\\Desktop\\产品手册-阳光小创客\\sunnyduino\\Mixly0.998_WIN(7.9)\\arduino-1.8.5\\libraries\\LiquidCrystal_I2C\\LiquidCrystal_I2C.cpp",
+    "Include": "",
+    "Includepath": ""
+  },
+  {
+    "Sourcefile": "C:\\Users\\lenovo\\Desktop\\产品手册-阳光小创客\\sunnyduino\\Mixly0.998_WIN(7.9)\\arduino-1.8.5\\libraries\\RTC\\RTC.cpp",
+    "Include": "",
+    "Includepath": ""
+  }
+]

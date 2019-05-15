@@ -1,0 +1,10 @@
+{
+  "builtInLibrariesFolders": "C:\\Users\\lenovo\\Desktop\\产品手册-阳光小创客\\sunnyduino\\Mixly0.998_WIN(7.9)\\arduino-1.8.5\\libraries",
+  "customBuildProperties": "build.path=mixlyBuild,build.warn_data_percentage=75,runtime.tools.avr-gcc.path=C:\\Users\\lenovo\\Desktop\\产品手册-阳光小创客\\sunnyduino\\Mixly0.998_WIN(7.9)\\.\\arduino-1.8.5\\hardware\\tools\\avr,runtime.tools.arduinoOTA.path=C:\\Users\\lenovo\\Desktop\\产品手册-阳光小创客\\sunnyduino\\Mixly0.998_WIN(7.9)\\.\\arduino-1.8.5\\hardware\\tools\\avr,runtime.tools.avrdude.path=C:\\Users\\lenovo\\Desktop\\产品手册-阳光小创客\\sunnyduino\\Mixly0.998_WIN(7.9)\\.\\arduino-1.8.5\\hardware\\tools\\avr",
+  "fqbn": "arduino:avr:mega:cpu=atmega2560",
+  "hardwareFolders": "C:\\Users\\lenovo\\Desktop\\产品手册-阳光小创客\\sunnyduino\\Mixly0.998_WIN(7.9)\\arduino-1.8.5\\hardware",
+  "otherLibrariesFolders": "C:\\Users\\lenovo\\Documents\\Arduino\\libraries",
+  "runtime.ide.version": "10806",
+  "sketchLocation": "C:\\Users\\lenovo\\Desktop\\产品手册-阳光小创客\\sunnyduino\\Mixly0.998_WIN(7.9)\\testArduino\\testArduino.ino",
+  "toolsFolders": "C:\\Users\\lenovo\\Desktop\\产品手册-阳光小创客\\sunnyduino\\Mixly0.998_WIN(7.9)\\.\\arduino-1.8.5\\tools-builder,C:\\Users\\lenovo\\Desktop\\产品手册-阳光小创客\\sunnyduino\\Mixly0.998_WIN(7.9)\\.\\arduino-1.8.5\\hardware\\tools\\avr"
+}
